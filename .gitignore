@@ -1,0 +1,13 @@
+# Abaikan folder virtual environment
+venv/
+.env
+
+# Abaikan cache python
+__pycache__/
+*.pyc
+
+# Abaikan file sistem dataset jika terlalu besar (opsional, tapi csv kecil aman)
+# data/
+
+# Abaikan file system
+.DS_Store
