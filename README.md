@@ -35,23 +35,32 @@ Proyek ini disusun dengan struktur folder yang rapi untuk memudahkan pengembanga
 submission_bike_sharing/
 │
 ├── dashboard/
-│   ├── dashboard.py             
+│   ├── dashboard.py             # Source code utama aplikasi Streamlit
+│   └── hour.csv                 # Dataset dashboard
 │
-├── data/                        
-│   ├── day.csv                
-│   └── hour.csv               
+├── data/                        # Folder penyimpanan data mentah (Raw Data)
+│   ├── day.csv
+│   └── hour.csv
 │
-├── models/                
-│   ├── kmeans_bike_cluster.joblib  
-│   └── scaler_bike_cluster.joblib 
+├── models/                      # Penyimpanan Model Machine Learning (AI)
+│   ├── kmeans_bike_cluster.joblib
+│   └── scaler_bike_cluster.joblib
 │
-├── notebooks/                
-│   └── ML_Romi Aprilian Mustafa.ipynb 
-|
-├── requirements.txt         
-└── README.md            
+├── notebooks/                   # Jupyter Notebook (Analisis Lengkap)
+│   └── ML_Romi Aprilian Mustafa.ipynb
+│
+├── requirements.txt             # Daftar dependensi library
+└── README.md                    # Dokumentasi Proyek
 
 ```
+
+> **⚠️ Catatan Penting (Notebook):**
+> Output visualisasi pada file notebook (`notebooks/ML_Romi Aprilian Mustafa.ipynb`) telah dibersihkan untuk menjaga ukuran file agar dapat ditampilkan di GitHub.
+> **Untuk melihat hasil analisis dan grafik secara lengkap:**
+> 1. Buka file notebook tersebut di **Google Colab**.
+> 2. Pilih menu **Runtime** > **Run all** (Jalankan semua).
+> 
+> 
 
 ---
 
@@ -75,7 +84,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal And
 Unduh kode sumber proyek ini dari GitHub:
 
 ```bash
-git clone https://github.com/romiaprilian7406/submission-bike-sharing.git
+git clone [https://github.com/romiaprilian7406/submission-bike-sharing.git](https://github.com/romiaprilian7406/submission-bike-sharing.git)
 cd submission-bike-sharing
 
 ```
@@ -85,21 +94,20 @@ cd submission-bike-sharing
 Sangat disarankan menggunakan *Virtual Environment* agar library tidak bentrok dengan sistem utama.
 
 * **Windows (Command Prompt):**
+
 ```bash
 python -m venv venv
 venv\Scripts\activate
 
 ```
 
-
 * **macOS / Linux / WSL:**
+
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 
 ```
-
-
 
 ### 3. Install Library (Dependencies)
 
