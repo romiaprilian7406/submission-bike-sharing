@@ -55,7 +55,7 @@ submission_bike_sharing/
 ```
 
 > **⚠️ Catatan Penting (Notebook):**
-> Output visualisasi pada file notebook (`notebooks/ML_Romi Aprilian Mustafa.ipynb`) telah dibersihkan untuk menjaga ukuran file agar dapat ditampilkan di GitHub.
+> Output visualisasi pada file notebook (`notebooks/ML_Romi_Aprilian_Mustafa_without_output.ipynb`) telah dibersihkan untuk menjaga ukuran file agar dapat ditampilkan di GitHub.
 > **Untuk melihat hasil analisis dan grafik secara lengkap:**
 > 1. Buka file notebook tersebut di **Google Colab**.
 > 2. Pilih menu **Runtime** > **Run all** (Jalankan semua).
