@@ -47,7 +47,7 @@ submission_bike_sharing/
 │   └── scaler_bike_cluster.joblib
 │
 ├── notebooks/                   # Jupyter Notebook (Analisis Lengkap)
-│   └── ML_Romi Aprilian Mustafa.ipynb
+│   └── ML_Romi_Aprilian_Mustafa_without_output.ipynb
 │
 ├── requirements.txt             # Daftar dependensi library
 └── README.md                    # Dokumentasi Proyek
